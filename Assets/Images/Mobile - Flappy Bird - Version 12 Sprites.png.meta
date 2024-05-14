@@ -668,13 +668,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_15
+      name: die
       rect:
         serializedVersion: 2
-        x: 311
-        y: 408
-        width: 19
-        height: 14
+        x: 312
+        y: 409
+        width: 17
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -873,27 +873,6 @@ TextureImporter:
       bones: []
       spriteID: 4bf8c7ca729e06ec0800000000000000
       internalID: -3575601747525333068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_25
-      rect:
-        serializedVersion: 2
-        x: 309
-        y: 404
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9dc78534e81652530800000000000000
-      internalID: 3829574321791597785
       vertices: []
       indices: 
       edges: []
@@ -1319,7 +1298,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_46
+      name: score
       rect:
         serializedVersion: 2
         x: 2
@@ -1361,7 +1340,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_48
+      name: gold
       rect:
         serializedVersion: 2
         x: 120
@@ -1823,7 +1802,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_70
+      name: silver
       rect:
         serializedVersion: 2
         x: 111
@@ -1865,7 +1844,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_72
+      name: bron
       rect:
         serializedVersion: 2
         x: 111
@@ -2070,7 +2049,6 @@ TextureImporter:
       Mobile - Flappy Bird - Version 12 Sprites_10: 5521694834215240920
       Mobile - Flappy Bird - Version 12 Sprites_11: -3400579567936777025
       Mobile - Flappy Bird - Version 12 Sprites_14: 2037097137259322841
-      Mobile - Flappy Bird - Version 12 Sprites_15: 1399865248621217857
       Mobile - Flappy Bird - Version 12 Sprites_17: -5322340071041531647
       Mobile - Flappy Bird - Version 12 Sprites_18: -3459855430096573399
       Mobile - Flappy Bird - Version 12 Sprites_19: 4649278624061740554
@@ -2101,9 +2079,7 @@ TextureImporter:
       Mobile - Flappy Bird - Version 12 Sprites_43: 230129452947892208
       Mobile - Flappy Bird - Version 12 Sprites_44: 4495249375143456610
       Mobile - Flappy Bird - Version 12 Sprites_45: 875370270028939571
-      Mobile - Flappy Bird - Version 12 Sprites_46: 7866015679261102617
       Mobile - Flappy Bird - Version 12 Sprites_47: 1687489963281649004
-      Mobile - Flappy Bird - Version 12 Sprites_48: -1109645456820774316
       Mobile - Flappy Bird - Version 12 Sprites_49: -6271202071706072646
       Mobile - Flappy Bird - Version 12 Sprites_5: -8998104236824694837
       Mobile - Flappy Bird - Version 12 Sprites_50: -5116034788630571233
@@ -2123,9 +2099,7 @@ TextureImporter:
       Mobile - Flappy Bird - Version 12 Sprites_68: 6761572560169963571
       Mobile - Flappy Bird - Version 12 Sprites_69: 6975628269904033469
       Mobile - Flappy Bird - Version 12 Sprites_7: 6297297506034485570
-      Mobile - Flappy Bird - Version 12 Sprites_70: 1643155221146841879
       Mobile - Flappy Bird - Version 12 Sprites_71: 7243472915562548880
-      Mobile - Flappy Bird - Version 12 Sprites_72: 2560398875629629500
       Mobile - Flappy Bird - Version 12 Sprites_73: 3103654844608862705
       Mobile - Flappy Bird - Version 12 Sprites_74: 1358095613425202594
       Mobile - Flappy Bird - Version 12 Sprites_75: -6849601262952108319
@@ -2136,7 +2110,10 @@ TextureImporter:
       Mobile - Flappy Bird - Version 12 Sprites_8: 5897210807152635017
       Mobile - Flappy Bird - Version 12 Sprites_80: -5850029005157357063
       Mobile - Flappy Bird - Version 12 Sprites_9: -8672742685835622642
+      bron: 2560398875629629500
+      die: 1399865248621217857
       gameOv: 8433751597566169029
+      gold: -1109645456820774316
       ground: 7294014354058790825
       name: 8181548382722186305
       pipe0: 3869963733588150954
@@ -2144,6 +2121,8 @@ TextureImporter:
       red0: 1933258764018161309
       red1: -4514805892046077403
       red2: 191857608284174513
+      score: 7866015679261102617
+      silver: 1643155221146841879
       start: 3255952901831296901
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

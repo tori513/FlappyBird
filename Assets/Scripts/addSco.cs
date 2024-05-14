@@ -7,7 +7,9 @@ public class addSco : MonoBehaviour
 {
     public Text scoreTxt;
     public int score = 0;
-
+    public GameObject bronzeMedal;
+    public GameObject silverMedal;
+    public GameObject goldMedal;
    
     void Start()
     {
@@ -24,5 +26,20 @@ public class addSco : MonoBehaviour
     {
         score++;
         scoreTxt.text = score.ToString();
+        
+
+        if (score >= 20)
+        {
+            bronzeMedal.SetActive(true);
+        }
+        else if (score >= 50)
+        {
+            silverMedal.SetActive(true);
+        }
+        else if (score >= 100)
+        {
+            goldMedal.SetActive(true);
+        }
+
     }
 }

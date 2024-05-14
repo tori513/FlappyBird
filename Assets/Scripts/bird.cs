@@ -19,6 +19,8 @@ public class bird : MonoBehaviour
     public AudioClip dieSound;
 
     public addSco addSco;
+    public addSco addSco1;
+    public addSco addSco2;
 
     [SerializeField]
     private GameObject dieImage;
@@ -57,6 +59,8 @@ public class bird : MonoBehaviour
         if (collision.gameObject.CompareTag("goal"))
         {
             addSco.addScore();
+            addSco1.addScore();
+            addSco2.addScore();
         }
     }
 }

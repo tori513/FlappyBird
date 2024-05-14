@@ -31,17 +31,28 @@ public class PipeCopy : MonoBehaviour
             CopyPipe();
             timeCheck = 0;
 
+
             if(addSco != null)
             {
-                if (addSco.score == 4)
+                if (addSco.score >= 4)
                 {
                     stageTime = 0.9f;
                     height = 0.02f;
                 }
-                if (addSco.score == 15)
+                if (addSco.score >= 15)
                 {
-                    stageTime = 1.4f;
-                    height = 0.8f;
+                    stageTime = 1.45f;
+                    height = 0.58f;
+                }
+                if(addSco.score >= 50)
+                {
+                    stageTime = 1.6f;
+                    height = 0.55f;
+                }
+                if (addSco.score >= 75)
+                {
+                    stageTime = 0.4f;
+                    height = 0.13f;
                 }
             }
             
